@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px){
+    .header{
+        height: 60px;
+    }
+    .header__inner{
+        padding: 10px 0;
+    }
+    
+    .header__menu {
+        display: none;
+    }
+
+    .header__hamburger {
+        display: block;
+    }
+
+    .features{
+        padding-top: 75px;
+    }
+
+    .features__inner{
+        flex-direction: column-reverse;
+    }
+
+    .features__images img{
+        height: 250px;
+    }
+
+    .product-item{
+        height: 420px;
+    }
+    .product-img {
+        height: 380px;
+    }
+
+    .product-img {
+        padding: 32px 30px 0;
+    }
+
+    .s-block {
+        padding: 75px 0;
+    }
+
+}
