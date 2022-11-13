@@ -44,6 +44,11 @@ body {
     padding: 10px 25px 12px;
     color: #FFFFFF;
     outline: none;
+    transition: background 150ms ease-in-out;
+}
+
+.btn:hover{
+    background: #FF5437;
 }
 
 .section-suptitle {
